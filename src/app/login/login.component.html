@@ -1,0 +1,13 @@
+<h2>Login</h2>
+<div>
+    <label for="id">ID</label>
+    <input type="text" id="id" [(ngModel)]="us.id"><br>
+    <label for="pwd">PWD</label>
+    <input type="password" id="pwd" [(ngModel)]="us.pwd"><br>
+    <button (click)="doLogin()">로그인</button>
+    <button>회원 가입</button>
+
+</div>
+<div>
+  Your ID : {{us.id}}
+</div>
